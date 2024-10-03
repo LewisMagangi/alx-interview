@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+B#!/usr/bin/python3
 """
 0. Pascal's Triangle
 """
@@ -17,4 +17,4 @@ def pascal_triangle(n):
                 level.append(C)
                 C = C * (i - j) // j
             res.append(level)
-    return resPascal
+    return res
